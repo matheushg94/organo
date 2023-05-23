@@ -1,0 +1,28 @@
+.footer {
+    background-color: #6278F7;
+    color: #FFF;
+    font-size: 20px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+/* .footer .social-medias {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.footer p {
+    font-size: 20px;
+} */
