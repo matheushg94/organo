@@ -76,14 +76,14 @@ const Formulario = (props) => {
                 <h2>Preencha os dados para criar o novo time</h2>
                 <Campo 
                     required
-                    label="nomeTime"
+                    label="nome do time"
                     placeholder="Digite o nome do novo time"
                     valor={nomeTime}
                     aoAlterado={valor => setNomeTime(valor)}
                 /> {/* required={true} vai passar o valor true por esse atributo, ={true} pode ser omitido */}
                 <Campo
                     required
-                    label="corTime"
+                    label="cor do time"
                     type='color'
                     placeholder="Digite a cor do novo time"
                     valor={corTime}
